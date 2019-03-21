@@ -28,8 +28,6 @@ impl ws::Handler for Server {
 
     fn on_close(&mut self, code: ws::CloseCode, reason: &str) {
         println!("WebSocket closing for ({:?}) {}", code, reason);
-        println!("Shutting down server after first connection closes.");
-        self.ws.shutdown().unwrap();
     }
 
     fn on_error(&mut self, err: ws::Error) {

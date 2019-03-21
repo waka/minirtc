@@ -1,0 +1,4 @@
+[submodule "sample/ayame"]
+	path = sample/ayame
+  url = https://github.com/shiguredo/ayame-react-sample.git
+  ignore = dirty

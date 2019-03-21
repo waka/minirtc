@@ -1,0 +1,12 @@
+[package]
+name = "minirtc"
+version = "0.1.0"
+authors = ["yo_waka <y.wakahara@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+env_logger = { version = "0.6.1", default-features = false }
+serde = "1.0.86"
+serde_derive = "1.0.86"
+serde_json = "1.0.38"
+ws = "0.7.9"
